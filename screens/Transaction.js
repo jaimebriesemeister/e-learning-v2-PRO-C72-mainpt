@@ -80,7 +80,7 @@ export default class TransactionScreen extends Component {
           this.initiateBookIssue(bookId, studentId, bookName, studentName);
 
           // Apenas para usuários do Android
-          ToastAndroid.show("Book issued to the student!", ToastAndroid.SHORT);
+          ToastAndroid.show("Livro entregue para o aluno!", ToastAndroid.SHORT);
 
           // Alert.alert("Livro entregue para o aluno!");
         } else {
